@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#070707">
+<title>FEMME – O poveste în muzică | bWines &amp; Travel</title>
+<meta name="description" content="Propunere de spectacol de gală pentru 8 Martie: FEMME – O poveste în muzică. Pop-opera, musical și bel canto.">
+<link rel="preconnect" href="https://images.unsplash.com">
+<style>
+:root{--bg:#070707;--panel:#111;--text:#f5f3ee;--muted:#aaa69d;--gold:#c6a66a;--line:#302a20}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6}a{color:var(--gold)}
+.wrap{max-width:1120px;margin:auto;padding:22px 24px 58px}.back{display:inline-block;text-decoration:none;color:var(--gold);font-size:12px;letter-spacing:1.5px;font-weight:800;margin:4px 0 22px}
+.hero{min-height:510px;display:flex;align-items:flex-end;padding:48px 44px;border:1px solid var(--line);position:relative;overflow:hidden;background:linear-gradient(0deg,rgba(0,0,0,.88),rgba(0,0,0,.12)),url("https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=2000&q=85") center 38%/cover}
+.hero:after{content:"8 MARCH";position:absolute;right:-10px;top:22px;font:clamp(44px,10vw,118px)/1 Georgia,serif;color:rgba(198,166,106,.22);letter-spacing:3px;white-space:nowrap}
+.hero-copy{position:relative;z-index:1;max-width:760px}.eyebrow{color:var(--gold);font-size:11px;letter-spacing:2.6px;text-transform:uppercase;font-weight:800}
+h1,h2,h3{font-family:Georgia,serif;font-weight:400}h1{font-size:clamp(48px,8vw,88px);line-height:.98;letter-spacing:1px;margin:14px 0 12px}.subtitle{font:italic clamp(19px,3vw,26px)/1.3 Georgia,serif;color:#e4d7bd}.hero p{max-width:690px;color:#e1ddd5;font-size:16px;margin:18px 0 0}
+.meta{display:flex;gap:9px;flex-wrap:wrap;margin-top:24px}.meta span{border:1px solid rgba(198,166,106,.55);padding:7px 11px;font-size:12px;color:#f0e6d4;background:rgba(0,0,0,.28)}
+.intro{max-width:900px;color:#c9c5bd;line-height:1.85;font-size:15px;margin:30px auto 40px}
+.section-title{margin:42px 0 18px}.section-title .eyebrow{margin-bottom:6px}.section-title h2{font-size:34px;margin:0}.section-title p{color:var(--muted);margin:6px 0 0}
+.concept-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:18px;align-items:stretch}.concept-copy,.quote{border:1px solid var(--line);background:var(--panel);padding:25px}.concept-copy p{color:#c9c5bd;margin:0}.quote{display:flex;align-items:center;font:italic 24px/1.45 Georgia,serif;color:#e9ddc8}
+.act{border-top:1px solid var(--line);padding:25px 0 26px;display:grid;grid-template-columns:210px 1fr;gap:28px}.act-label{color:var(--gold);font-size:11px;letter-spacing:1.8px;font-weight:800;text-transform:uppercase}.act-label h3{font-size:25px;line-height:1.15;letter-spacing:0;text-transform:none;color:var(--text);margin:7px 0}.duration{font-size:12px;color:var(--muted)}
+.songs{list-style:none;margin:0;padding:0}.songs li{display:grid;grid-template-columns:28px 1fr auto;gap:10px;padding:8px 0;border-bottom:1px solid #24211c;align-items:baseline}.songs li:last-child{border:0}.n{color:var(--gold);font-size:12px}.song{font-weight:650}.work{color:var(--muted);font-size:13px}.voice{color:#c8b58e;font-size:12px;text-align:right}.bridge{color:#aaa69d;font:italic 15px/1.65 Georgia,serif;margin:14px 0 0}
+.gallery{display:grid;grid-template-columns:1.2fr .8fr;gap:14px;margin:30px 0}.gallery img{display:block;width:100%;height:100%;min-height:240px;object-fit:cover;filter:saturate(.78)}.gallery .small{display:grid;grid-template-rows:1fr 1fr;gap:14px}.gallery .small img{min-height:160px}
+.cast{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.cast article{background:var(--panel);border:1px solid var(--line);padding:17px}.cast strong{display:block;color:var(--gold);font:20px Georgia,serif;margin-bottom:5px}.cast span{color:var(--muted);font-size:13px}
+.production{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.production article{padding:18px;border:1px solid var(--line);background:var(--panel)}.production h3{font-size:21px;margin:0 0 5px}.production p{color:#bcb7ae;font-size:14px;margin:0}
+.closing{margin-top:36px;padding:36px 28px;text-align:center;border:1px solid var(--gold);background:linear-gradient(120deg,#17130d,#0b0b0b 70%)}.closing h2{font-size:34px;margin:8px 0}.closing p{color:#c9c5bd;max-width:700px;margin:0 auto}
+footer{border-top:1px solid var(--line);margin-top:36px;padding-top:18px;color:#777;font-size:12px;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+@media(max-width:760px){.wrap{padding:16px 16px 42px}.hero{min-height:470px;padding:30px 24px}.concept-grid,.gallery{grid-template-columns:1fr}.gallery .small{grid-template-columns:1fr 1fr;grid-template-rows:1fr}.gallery .small img{min-height:150px}.act{grid-template-columns:1fr;gap:10px}.cast{grid-template-columns:repeat(2,1fr)}.voice{font-size:11px}.songs li{grid-template-columns:22px 1fr}.voice{grid-column:2;text-align:left}.production{grid-template-columns:1fr}.section-title h2{font-size:30px}}
+</style>
+</head>
+<body><main class="wrap">
+<a class="back" href="/">← ÎNAPOI LA CALENDARUL bWINES &amp; TRAVEL</a>
+<header class="hero"><div class="hero-copy"><div class="eyebrow">Spectacol de gală · 8 Martie</div><h1>FEMME</h1><div class="subtitle">O poveste în muzică</div><p>O celebrare a femeii prin emoția musicalului, eleganța operei și energia muzicii universale. O seară despre visuri, iubire, curaj și bucuria de a trăi.</p><div class="meta"><span>≈ 60 minute</span><span>4 soliști</span><span>Pop-opera · Musical · Bel canto</span></div></div></header>
+
+<p class="intro">FEMME este conceput ca un spectacol cu fir narativ, nu ca o simplă succesiune de arii și cântece. Patru voci – un baritenor și trei voci feminine – construiesc împreună portretul unei femei în toate ipostazele sale: cea care visează, iubește, învinge și transformă fiecare clipă într-o sărbătoare.</p>
+
+<section class="concept-grid"><div class="concept-copy"><div class="eyebrow">Concept artistic</div><h2 style="font:400 29px Georgia,serif;margin:8px 0 12px">O poveste în patru acte</h2><p>Repertoriul traversează universul Broadway, musicalul contemporan, opera italiană și marile cântece crossover. Momentele solo alternează cu duete și ansambluri, iar scurtele intervenții narative leagă muzica într-o singură poveste emoțională.</p></div><div class="quote">„În fiecare femeie există o poveste. În seara aceasta, o spunem prin muzică.”</div></section>
+
+<div class="section-title"><div class="eyebrow">Repertoriu propus</div><h2>Programul spectacolului</h2><p>Ordine artistică și distribuție vocală propusă</p></div>
+
+<section class="act"><div class="act-label">Prolog<h3>Începutul unei povești</h3><div class="duration">≈ 5 minute</div></div><div><ol class="songs">
+<li><span class="n">01</span><div><span class="song">Memory</span> <span class="work">· Cats</span></div><span class="voice">Soprana 1</span></li>
+<li><span class="n">02</span><div><span class="song">That's What Friends Are For</span> <span class="work">· Dionne Warwick</span></div><span class="voice">Trio feminin</span></li>
+</ol><p class="bridge">În fiecare femeie există o poveste. O poveste despre visuri, prietenie, speranță și puterea de a merge mai departe.</p></div></section>
+
+<section class="act"><div class="act-label">Actul I<h3>Femeia care visează</h3><div class="duration">≈ 10 minute</div></div><div><ol class="songs">
+<li><span class="n">01</span><div><span class="song">I Dreamed a Dream</span> <span class="work">· Les Misérables</span></div><span class="voice">Soprana 1</span></li>
+<li><span class="n">02</span><div><span class="song">Think of Me</span> <span class="work">· The Phantom of the Opera</span></div><span class="voice">Soprana 2</span></li>
+<li><span class="n">03</span><div><span class="song">The Phantom of the Opera</span> <span class="work">· duet</span></div><span class="voice">Soprana 1 + Baritenor</span></li>
+</ol><p class="bridge">Fiecare poveste începe cu un vis. Cu speranța unei iubiri, cu dorința de a descoperi lumea și cu îndrăzneala de a crede în propriul destin.</p></div></section>
+
+<section class="act"><div class="act-label">Actul II<h3>Femeia care iubește</h3><div class="duration">≈ 12 minute</div></div><div><ol class="songs">
+<li><span class="n">01</span><div><span class="song">I Feel Pretty</span> <span class="work">· West Side Story</span></div><span class="voice">Soprana 2</span></li>
+<li><span class="n">02</span><div><span class="song">All I Ask of You</span> <span class="work">· The Phantom of the Opera</span></div><span class="voice">Soprana 2 + Baritenor</span></li>
+<li><span class="n">03</span><div><span class="song">O mio babbino caro</span> <span class="work">· Gianni Schicchi, Puccini</span></div><span class="voice">Soprana 1</span></li>
+<li><span class="n">04</span><div><span class="song">Time to Say Goodbye (Con te partirò)</span></div><span class="voice">Soprana 2 + Baritenor</span></li>
+</ol><p class="bridge">Iubirea are multe chipuri: poate fi tandră, jucăușă, pasională sau copleșitoare. Este emoția care ne schimbă și ne dă aripi.</p></div></section>
+
+<div class="gallery" aria-label="Atmosferă de spectacol"><img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=1200&q=85" alt="Scenă de concert luminată"><div class="small"><img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=900&q=85" alt="Lumini și atmosferă de spectacol"><img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=900&q=85" alt="Interpretă cântând pe scenă"></div></div>
+
+<section class="act"><div class="act-label">Actul III<h3>Femeia care învinge</h3><div class="duration">≈ 13–15 minute</div></div><div><ol class="songs">
+<li><span class="n">01</span><div><span class="song">Don't Cry for Me Argentina</span> <span class="work">· Evita</span></div><span class="voice">Soprana 2</span></li>
+<li><span class="n">02</span><div><span class="song">The Winner Takes It All</span> <span class="work">· ABBA</span></div><span class="voice">Mezzo-soprană</span></li>
+<li><span class="n">03</span><div><span class="song">Never Enough</span> <span class="work">· The Greatest Showman</span></div><span class="voice">Soprana 1</span></li>
+<li><span class="n">04</span><div><span class="song">My Way</span> <span class="work">· Frank Sinatra</span></div><span class="voice">Baritenor</span></li>
+</ol><p class="bridge">Există momente în care viața ne pune la încercare. Dar femeia găsește puterea de a se ridica, de a-și apăra visurile și de a-și urma propriul drum.</p></div></section>
+
+<section class="act"><div class="act-label">Actul IV<h3>Femeia este sărbătoare</h3><div class="duration">≈ 10 minute</div></div><div><ol class="songs">
+<li><span class="n">01</span><div><span class="song">Dancing Queen</span> <span class="work">· ABBA</span></div><span class="voice">Trio feminin</span></li>
+<li><span class="n">02</span><div><span class="song">New York, New York</span> <span class="work">· Frank Sinatra</span></div><span class="voice">Baritenor</span></li>
+<li><span class="n">03</span><div><span class="song">You Raise Me Up</span></div><span class="voice">Toți cei patru soliști</span></li>
+</ol><p class="bridge">Femeia este energie, eleganță, prietenie și bucurie. Este zâmbetul care luminează o încăpere și forța care îi inspiră pe cei din jur.</p></div></section>
+
+<section class="act"><div class="act-label">Finale<h3>Pentru toate femeile</h3><div class="duration">≈ 8 minute</div></div><div><ol class="songs">
+<li><span class="n">01</span><div><span class="song">The Prayer</span></div><span class="voice">Soprana 1 + Baritenor</span></li>
+<li><span class="n">02</span><div><span class="song">Brindisi – Libiamo ne' lieti calici</span> <span class="work">· La Traviata, Verdi</span></div><span class="voice">Toți cei patru soliști</span></li>
+</ol><p class="bridge">În această seară, povestea noastră este dedicată tuturor femeilor. Celor care visează, iubesc, luptă, zâmbesc și fac lumea mai frumoasă. La mulți ani!</p></div></section>
+
+<div class="section-title"><div class="eyebrow">Distribuție</div><h2>Patru voci. O singură poveste.</h2></div>
+<section class="cast">
+<article><strong>Soprana 1</strong><span>Memory · I Dreamed a Dream · Phantom duet · O mio babbino caro · Never Enough · The Prayer</span></article>
+<article><strong>Soprana 2</strong><span>Think of Me · I Feel Pretty · All I Ask of You · Time to Say Goodbye · Don't Cry for Me Argentina</span></article>
+<article><strong>Mezzo-soprană</strong><span>The Winner Takes It All · parte din trio-urile feminine</span></article>
+<article><strong>Baritenor</strong><span>Duete Phantom · All I Ask of You · Time to Say Goodbye · My Way · New York, New York · You Raise Me Up · The Prayer</span></article>
+</section>
+
+<div class="section-title"><div class="eyebrow">Punere în scenă</div><h2>Eleganță, emoție, spectacol</h2></div>
+<section class="production">
+<article><h3>Direcție muzicală</h3><p>Un mix echilibrat de musical/Broadway, operă și operetă, respectiv pop-opera/crossover. Aranjamentele trebuie adaptate tonalităților și timbrelor celor patru soliști.</p></article>
+<article><h3>Scenografie &amp; lumini</h3><p>Decor minimalist și elegant, cu fundal LED și proiecții tematice. Auriu și lumină caldă pentru lirism, accente roșii și dramatice pentru momentele intense.</p></article>
+<article><h3>Costume</h3><p>Rochii de seară pentru cele trei soliste și costum elegant pentru baritenor. Schimbările de atmosferă pot fi sugerate prin lumină și proiecții, fără schimbări complicate de decor.</p></article>
+<article><h3>Aranjament scenic</h3><p>Pian și/sau acompaniament instrumental orchestral, tranziții scurte narate și momente de ansamblu care reunesc treptat toți cei patru interpreți.</p></article>
+</section>
+
+<section class="closing"><div class="eyebrow">FEMME · 8 Martie</div><h2>O poveste în muzică</h2><p>Un omagiu adus femeii – prin voce, emoție și muzică. O seară care începe cu un vis și se încheie cu o sărbătoare.</p></section>
+<footer><span>bWines &amp; Travel · Călătorii create cu pasiune, trăite cu rafinament.</span><span>Fotografii: Unsplash · imagini gratuite conform licenței Unsplash</span></footer>
+</main></body></html>
